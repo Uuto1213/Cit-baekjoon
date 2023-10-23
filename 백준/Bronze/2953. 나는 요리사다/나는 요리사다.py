@@ -1,0 +1,12 @@
+a = map(int, input().split())
+b= map(int, input().split())
+c= map(int, input().split())
+d= map(int, input().split())
+e= map(int, input().split())
+a1 = sum(a)
+b1 = sum(b)
+c1 = sum(c)
+d1 = sum(d)
+e1 = sum(e)
+l = [a1,b1,c1,d1,e1]
+print(l.index(max(l))+1, max(l)) 
